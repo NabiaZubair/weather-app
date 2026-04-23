@@ -1,0 +1,81 @@
+ * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        .container {
+            height: 350px;
+            background-color: rgb(113, 213, 222);
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .container img {
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .location {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 10px;
+            
+        }
+
+        .addbtn {
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(168, 128, 216);
+        }
+
+        .wind-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .wind-container img {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+        }
+
+        .humidity-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .humidity-container img {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+        }
+        .data{
+            display: flex;
+            gap:20px;
+            margin-top: 40px;
+        }
+        .place{
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+       .inputfield{
+        margin-bottom: 15px;
+       }
