@@ -28,6 +28,7 @@
             humidity.innerText = weatherData.current.relative_humidity_2m + weatherData.current_units.relative_humidity_2m;
             result.innerText = weatherData.current.temperature_2m + weatherData.current_units.temperature_2m;
             windspeed.innerText = weatherData.current.wind_speed_10m + weatherData.current_units.wind_speed_10m;
+            inputLocation.value="";
         }
         addbtn.addEventListener("click", (e) => {
             e.preventDefault();
